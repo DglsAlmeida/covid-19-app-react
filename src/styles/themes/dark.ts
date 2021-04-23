@@ -6,6 +6,7 @@ export default {
     primary: '#121214',
     secundary: '',
 
+    tableColor: '#a8a8b3',
     background: '#121214',
     text: '#fff',
   }

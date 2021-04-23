@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
-  border-top: 3px solid var(--gray-800);;
+  border-top: 1px solid var(--gray-800);
   margin-top: 100px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: ${props => props.theme.colors.primary};
 
   h1 {
     padding-top: 50px;

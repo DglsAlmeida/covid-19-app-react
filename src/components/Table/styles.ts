@@ -50,7 +50,7 @@ export const TableContent = styled.table`
   td {
     width: 50px;
     border: 0;
-    background: var(--gray-300);
+    background: ${props => props.theme.colors.tableColor};
     padding: 20px 2px;
     font-size: 16px;
   }

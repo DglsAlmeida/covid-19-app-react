@@ -1,12 +1,15 @@
+import { shade } from 'polished';
+
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   title: 'light',
 
   colors: {
-    primary: '#242526',
+    primary: shade(0.2, '#F7F7FF'),
     secundary: '',
 
-    background: '#f5f5f5',
+    tableColor: shade(0.2, '#F7F7FF'),
+    background: '#F7F7FF',
     text: '#333',
   }
 }

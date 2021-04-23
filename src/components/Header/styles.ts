@@ -7,20 +7,10 @@ export const HeaderContainer = styled.header`
  justify-content: space-between;
  padding-left: 20px;
  background: ${props => props.theme.colors.primary};
+ border-bottom: 1px solid var(--gray-800);
 
  div {
    margin-right: 40px;
-  
-    span {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      svg {
-        height: 30px;
-      }
-    }
-
  }
 
  h1 {
